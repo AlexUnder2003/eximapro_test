@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ### Запуск
 
 ```bash
-python console/main_console.py --max 50 --output tenders.csv
+python main.py --max 50 --output tenders.csv
 ```
 
 ### Аргументы:
