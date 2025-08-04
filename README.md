@@ -96,7 +96,7 @@ GET http://127.0.0.1:8000/tenders?max_items=10&domain=rostender.info
 
 ## Что сделано
 
-* Парсинг тендеров с сайта `rostender.info` с помощью `BeautifulSoup`.
+* Парсинг тендеров с сайта `rostender.info` с помощью `BeautifulSoup` и `Scrapy`.
 * Консольный интерфейс с сохранением результатов в файл.
 * Веб-интерфейс через FastAPI (асинхронный).
 * Сериализация данных через Pydantic.
