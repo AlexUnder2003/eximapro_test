@@ -9,7 +9,7 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/yourusername/eximapro_test.git
+git clone https://github.com/alexunder2003/eximapro_test.git
 cd eximapro
 ```
 
