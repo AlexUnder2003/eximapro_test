@@ -7,8 +7,8 @@ app = FastAPI()
 
 
 @app.get("/tenders", response_model=list[Tender])
-def get_tenders(
+async def get_tenders(
     max_items: int = Query(100, ge=1),
 ):
-    result = fetch_tenders(max_items)
-    return result
+    tenders = await fetch_tenders(max_items=max_items)
+    return tenders
